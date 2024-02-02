@@ -12,7 +12,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
-public class SecuirtyConfig {
+public class SecurityConfig {
 
 	@Autowired
 	JwtAuthConverter jwtAuthConverter;
